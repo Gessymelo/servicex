@@ -3,7 +3,7 @@
 
 :construction: Projeto da Disciplina de back End II :construction:
 
--professor: Diego Patrício 
+-PROFESSOR: Diego Patrício 
 
 ## ✔️ Técnicas e tecnologias utilizadas
 

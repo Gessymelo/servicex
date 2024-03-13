@@ -15,7 +15,7 @@
 
 # :hammer: Cronograma do Projeto
 
-- ` Passo: 1`: elaboracao do diagrama de UML do SISTEMA DE SERVIÇO.
-- ` Passo: 2`: criação do endpoint api rest de Categoria para O SISTEMA DE SERVIÇO.
+- `Passo: 1`: elaboracao do diagrama de UML do SISTEMA DE SERVIÇO.
+- `Passo: 2`: criação do endpoint api rest de Categoria para O SISTEMA DE SERVIÇO.
 - `Passo: 3`: criação do CRUD Categoria para O SISTEMA DE SERVIÇO.
 - `Passo: 4`: Requisicao via Postman de  Categoria :cadastra,listar,buscar por id,atualizar e deletar.

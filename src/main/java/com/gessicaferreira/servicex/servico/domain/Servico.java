@@ -1,5 +1,7 @@
-package com.gessicaferreira.servicex.categoria.domain;
+package com.gessicaferreira.servicex.servico.domain;
 
+import com.gessicaferreira.servicex.categoria.domain.Categoria;
+import com.gessicaferreira.servicex.ordemServico.OrdemServico;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,19 +15,18 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "SERVICOS")
+@Table(name = "SERVIÇOS")
+
 public class Servico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_SERVICO")
-    private Long idServico;
+    private Integer idServico;
     @Column(name = "NOME_SERVICO")
     private String nomeServico;
     @Column(name = "VALOR_SERVICO")
     private Double valor;
-    @ManyToOne(targetEntity = Categoria.class)
+    @ManyToOne
     @JoinColumn(name = "idCategoria")
-    private List<Categoria> categoria;
-    @OneToMany
-    private List<OrdemServico> ordemServico;
+    private Categoria categoria;
 }

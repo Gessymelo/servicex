@@ -1,4 +1,4 @@
-package com.gessicaferreira.servicex.categoria.domain;
+package com.gessicaferreira.servicex.ordemServico;
 
 import jakarta.persistence.*;
 import lombok.Data;

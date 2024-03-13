@@ -1,5 +1,6 @@
 package com.gessicaferreira.servicex.categoria.domain;
 
+import com.gessicaferreira.servicex.servico.domain.Servico;
 import jakarta.persistence.*;
 import lombok.Data;
 

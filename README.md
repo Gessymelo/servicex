@@ -11,6 +11,8 @@
 - ``Spring boot 3.1.9``
 - ``InteliJ IDEA``
 - ``Apache Maven``
+- ``Postman``
+- ``BD PostgreSQL``
 
 
 # :hammer: Cronograma do Projeto

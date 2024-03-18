@@ -21,3 +21,4 @@
 - `Passo: 2`: criação do endpoint api rest de Categoria para O SISTEMA DE SERVIÇO.
 - `Passo: 3`: criação do CRUD Categoria para O SISTEMA DE SERVIÇO.
 - `Passo: 4`: Requisicao via Postman de  Categoria :cadastra,listar,buscar por id,atualizar e deletar.
+- `Passo: 5`: criação do CRUD Servico para O SISTEMA DE SERVIÇO e Requisicao via Postman de  Servico :cadastra,listar,buscar por id,atualizar e deletar.
